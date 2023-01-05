@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import FacadeDesign from './pages/Events/FacadeDesign';
+import Pavilion from './pages/Events/Pavilion';
+import Sustainable from './pages/Events/SustainableHouse';
+import Architecture from './pages/Events/ArchitecturalPhoto';
+import BusShelter from './pages/Events/BusShelter';
+import Events from './pages/Events';
+import Register from './pages/Register';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/events" element={<Events/>}/>
+        <Route path="/event/facade-design" element={<FacadeDesign/>}/>
+        <Route path="/event/pavilion" element={<Pavilion/>}/>
+        <Route path="/event/sustainable-housing" element={<Sustainable/>}/>
+        <Route path="/event/architecture-photography" element={<Architecture/>}/>
+        <Route path="/event/bus-shelter" element={<BusShelter/>}/>
+        <Route path="/register" element={<Register/>}/>
+      </Routes>
+      <Footer/>
+    </>
   );
 }
 
