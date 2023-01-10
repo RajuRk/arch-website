@@ -15,19 +15,19 @@ const Awards = () => {
                 <div className="awards-sec">
                     <img src={Award1} alt=""/>
                     <h4>Winner</h4>
-                    <p className="value">600 USD</p>
-                    <p>Cash+Crafted certificate + Publication + Insignia</p>
+                    <p className="value">50,000 INR</p>
+                    <p>Cash + Trophy + Certificate</p>
                 </div>
                 <div className="awards-sec">
                     <img src={Award2} alt=""/>
                     <h4>Runner - Up</h4>
-                    <p className="value">150 USD</p>
-                    <p>Cash + e-certificate +insignia</p>
+                    <p className="value">15,000 INR</p>
+                    <p>Cash + Trophy + Certificate</p>
                 </div>
                 <div className="awards-sec">
                     <img src={Award3} alt=""/>
-                    <h4>People's Choice</h4>
-                    <p>e-certificate</p>
+                    <h4>Special Mention</h4>
+                    <p>Trophy + Certificate</p>
                 </div>
             </div>
         </Container>

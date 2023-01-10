@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Header from './components/Header';
@@ -11,6 +12,11 @@ import Events from './pages/Events';
 import Register from './pages/Register';
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <Header/>

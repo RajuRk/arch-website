@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Container, Row, Form, Button } from 'react-bootstrap';
 import {useForm} from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import "yup-phone";
+import {ToastContainer, toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { injectStyle } from "react-toastify/dist/inject-style";
+import axios from 'axios';
 
 const schema = yup.object().shape({
     name: yup.string()
@@ -26,10 +30,50 @@ const schema = yup.object().shape({
 
 
 const Register = () => {
- 
+  injectStyle();
+  const [name, setName] = useState('');
+  const [competitionName, setCompetitionName] = useState('');
+  const [collegeName, setCollegeName] = useState('');
+  const [year, setYear] = useState('');
+  const [address, setAddress] = useState('');
+  const [email, setEmail] = useState('');
+  const [contact, setContact] = useState('');
+
   const {register, handleSubmit, formState: {errors}} = useForm({
     resolver: yupResolver(schema)
   });
+
+
+  const getData = async() => {
+    const data = {
+        Name: name,
+        CompetitionName: competitionName,
+        CollegeName: collegeName,
+        Year: year,
+        Address: address,
+        Email: email,
+        Contact: contact
+    };
+
+    try{
+        await axios.post('https://sheet.best/api/sheets/f901d167-56be-46e6-aa81-a4b20a8b71bb', data)
+        .then((response) => {
+          if(response.data){
+            toast("Successfully Submitted");
+            setName('');
+            setCompetitionName('');
+            setCollegeName('');
+            setYear('');
+            setAddress('');
+            setEmail('');
+            setContact('');
+        }
+        });
+    }catch(err){
+        console.log(err.message);
+    }
+  }
+
 
   return (
     <section id="register-page">
@@ -39,17 +83,25 @@ const Register = () => {
                 <h2>RATHINAM SCHOOL OF ARCHITECTURE AVIVA - YOUNG TALENTS PRESENTS</h2>
                 <h6> INTER COLLEGE DESIGN COMPETITION  (2022-2023)</h6>
             </div>
-        <Form onSubmit={handleSubmit((data) => {
-            console.log(data);
-        })}>
+        <Form autoComplete="off" onSubmit={handleSubmit(getData)}>
             <Form.Group className="mb-4" controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control {...register("name")} type="text" placeholder="Enter Name" />
+                <Form.Control 
+                  {...register("name")} 
+                  type="text" 
+                  placeholder="Enter Name" 
+                  value={name}
+                  onChange={e => setName(e.target.value)}
+                />
                 <p className='errorMessage'>{errors.name?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4">
                 <Form.Label>Competition Name</Form.Label>
-                <Form.Select {...register("competitionName")}>
+                <Form.Select 
+                  {...register("competitionName")}
+                  value={competitionName}
+                  onChange={e => setCompetitionName(e.target.value)}  
+                >
                   <option value="" disabled="disabled">Choose Competition</option>
                   <option value="Facade Design">Facade Design</option>
                   <option value="Pavilion">Pavilion</option>
@@ -61,32 +113,77 @@ const Register = () => {
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicCollegeName">
                 <Form.Label>College Name</Form.Label>
-                <Form.Control {...register("collegeName")} type="text" placeholder="Enter College Name" />
+                <Form.Control 
+                  {...register("collegeName")} 
+                  type="text" 
+                  placeholder="Enter College Name" 
+                  value={collegeName}
+                  onChange={e => setCollegeName(e.target.value)}  
+                />
                 <p className='errorMessage'>{errors.collegeName?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicYear">
                 <Form.Label>Year - (Batch)</Form.Label>
-                <Form.Control {...register("year")} type="text" placeholder="Enter Year" />
+                <Form.Control 
+                  {...register("year")} 
+                  type="text" 
+                  placeholder="Enter Year" 
+                  value={year}
+                  onChange={e => setYear(e.target.value)}
+                />
                 <p className='errorMessage'>{errors.year?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicAddress">
                 <Form.Label>Address</Form.Label>
-                <Form.Control {...register("address")} type="text" placeholder="Enter Address" />
+                <Form.Control 
+                  {...register("address")} 
+                  type="text" 
+                  placeholder="Enter Address" 
+                  value={address}
+                  onChange={e => setAddress(e.target.value)}  
+                />
                 <p className='errorMessage'>{errors.address?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control {...register("email")} type="text" placeholder="Enter Email" />
+                <Form.Control 
+                  {...register("email")} 
+                  type="text" 
+                  placeholder="Enter Email" 
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}  
+                />
                 <p className='errorMessage'>{errors.email?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicEmail">
                 <Form.Label>Contact No</Form.Label>
-                <Form.Control {...register("contact")} type="text" placeholder="Enter Contact Number" />
+                <Form.Control 
+                  {...register("contact")} 
+                  type="text" 
+                  placeholder="Enter Contact Number" 
+                  value={contact}
+                  onChange={e => setContact(e.target.value)}  
+                />
                 <p className='errorMessage'>{errors.contact?.message}</p>
             </Form.Group>
-            <Button className="btn-register" type="submit">
+            <Button 
+              className="btn-register" 
+              type="submit"
+            >
                 Submit
             </Button>
+            <ToastContainer 
+                position="bottom-right"
+                // autoClose={5000} 
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                // pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
             </Form>
         </Row>
       </Container>

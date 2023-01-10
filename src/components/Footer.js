@@ -10,8 +10,9 @@ const Footer = () => {
                     <div className="title">
                     <h2>CONTACT</h2>
                     </div>
-                    <p><i className="fa fa-phone" aria-hidden="true"></i> 82482 90509<br/> <i className="fa fa-phone" aria-hidden="true"></i> 99408 14141</p>
-                    <p><i className="fa fa-envelope" aria-hidden="true"></i> abc@rathinam.in</p>
+                    <p><strong>Staff: </strong><i className="fa fa-phone" aria-hidden="true"></i> 82482 90509, 99408 14141</p>
+                    <p><strong>Student Coordinator: </strong><i className="fa fa-phone" aria-hidden="true"></i> 98091 29476, 86067 31344</p>
+                    <p><i className="fa fa-envelope" aria-hidden="true"></i> submissionsrathinam@gmail.com</p>
                     <p><i className="fa fa-map-marker" aria-hidden="true"></i> Rathinam Techzone Campus, <br/>Pollachi Road, Eachanari, Coimbatore,<br/> Tamil Nadu, India - 641021.</p>
                 </div>
                 </div>

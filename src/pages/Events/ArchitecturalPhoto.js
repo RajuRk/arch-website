@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import ArchImg from '../../img/photo-big.jpg';
 
 const Architecture = () => {
+
   return (
     <section id="event__section" className='page'>
       <Container>

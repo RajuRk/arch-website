@@ -5,6 +5,8 @@ import About from './About';
 import Awards from './Awards';
 import Partners from './Partners';
 import Events from './Events';
+import Jury from './Jury';
+import ReleseDate from './ReleseDate';
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
         </section>
        <About/>
        <Awards/>
+       <Jury/>
+       <ReleseDate/>
        <Partners/>
        <Events/>
     </>

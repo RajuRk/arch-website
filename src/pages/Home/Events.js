@@ -14,7 +14,7 @@ const datas = [
    {
      id: 1,
      img: FD,
-     title: "FACADE DESIGN",
+     title: "INTERNATIONAL YOUTH HUB",
      link: "/event/facade-design",
      dates: {
        relese: "Release of Brief",
@@ -50,7 +50,7 @@ const datas = [
     {
       id: 3,
       img: Pavilion,
-      title: "PAVILION",
+      title: "URBAN SPACE REDEVELOPMENT",
       link: "/event/pavilion",
       dates: {
         relese: "Release of Brief",
@@ -68,7 +68,7 @@ const datas = [
     {
       id: 4,
       img: Photo,
-      title: "ARCHITECTURAL PHOTOGRAPHY",
+      title: "PHOTOGRAPHY & SKETCHING",
       link: "/event/architecture-photography",
       dates: {
         relese: "Release of Brief",
@@ -86,7 +86,7 @@ const datas = [
     {
       id: 5,
       img: Shelters,
-      title: "SMART BUS SHELTER",
+      title: "ENTRANCE AREA",
       link: "/event/bus-shelter",
       dates: {
         relese: "Release of Brief",

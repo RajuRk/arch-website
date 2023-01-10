@@ -10,13 +10,13 @@ import BusImg from '../img/shelters-big.jpg';
 const datas = [
     {
         id: 1,
-        title: "FACADE DESIGN",
+        title: "INTERNATIONAL YOUTH HUB",
         img: FDImg,
         link: "/event/facade-design"
     },
     {
         id: 2,
-        title: "PAVILION",
+        title: "URBAN SPACE REDEVELOPMENT",
         img: PavilinImg,
         link: "/event/pavilion"
     },
@@ -28,13 +28,13 @@ const datas = [
     },
     {
         id: 4,
-        title: "ARCHITECTURAL PHOTOGRAPHY",
+        title: "ARCHITECTURAL PHOTOGRAPHY & SKETCHING",
         img: PhotoImg,
         link: "/event/architecture-photography"
     },
     {
         id: 5,
-        title: "BUS SHELTERS",
+        title: "ENTRANCE AREA",
         img: BusImg,
         link: "/event/bus-shelter"
     },
