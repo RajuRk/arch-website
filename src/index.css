@@ -764,3 +764,67 @@ footer{
     font-size: 40px;
     margin-bottom: 12px;
   }
+
+  #awards{
+    background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
+  }
+
+  .college-competition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .college-competition .youtube-hub{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    padding: 8px 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .college-competition .youtube-hub img,
+  .commpetitions img{
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+
+  .commpetitions{
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin: 5px 0;
+  }
+
+  .coordinatore p{
+    position: relative;
+    left: 30px;
+  }
+
+  .coordinatore p i{
+    position: absolute;
+    left: -30px;
+    background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
+    font-size: 10px;
+    padding: 6px;
+    color: #ffffff;
+    border-radius: 50%;
+    top: -1px;
+  }
+
+  .priceFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .priceFlex .pirceList{
+    text-align: center;
+  }

@@ -12,13 +12,13 @@ const datas = [
         id: 1,
         title: "INTERNATIONAL YOUTH HUB",
         img: FDImg,
-        link: "/event/facade-design"
+        link: "/event/youth-hub"
     },
     {
         id: 2,
         title: "URBAN SPACE REDEVELOPMENT",
         img: PavilinImg,
-        link: "/event/pavilion"
+        link: "/event/urban-space-redevelopment"
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ const datas = [
         id: 5,
         title: "ENTRANCE AREA",
         img: BusImg,
-        link: "/event/bus-shelter"
+        link: "/event/rathinam-entrance"
     },
 ]
 

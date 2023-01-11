@@ -27,13 +27,13 @@ const Architecture = () => {
            <p>In simple terms, Architectural sketching just means drawing buildings, or elements of buildings, or landscapes with buildings in them. This could be on paper, computer or even via a light box. In reality, of course, there is quite a lot more to it than that! Architectural sketches are different from, say, artist’s sketches in that they include things like scales and keys for cross-referencing information; they often show their subjects from unusual angles (for example in a floor plan, which places the architect above a building, or in a section, which imagines a building cut in half); and when hand-drawn, they tend to be made on a particular size and type of paper.</p>
         </Row>
         <Row className='mb-4'>
-            <Col md={6} lg={6}>
+            <Col md={12} lg={12}>
               <div className='aim__section'>
                 <h4>AIM</h4>
                 <p>Your challenge is simple: Submit one photograph that powerfully communicates an architectural form or space, capturing the essence of the place and the experience of those that inhabit it</p>
               </div>
             </Col>
-            <Col md={6} lg={6}>
+            <Col md={12} lg={12}>
                 <div className="objective__section">
                    <h4>OBJECTIVES</h4>
                    <p><strong style={{fontWeight: "bold"}}>Look for a unique angle :</strong> Playing with perspective is not only an entertaining thing to do, it can also be very rewarding. Taking time to find a different angle from which to photograph can expose an overlooked form or abstraction of a building’s detail that may give rise to another level of beauty and appreciation for its form.</p>
@@ -90,7 +90,7 @@ const Architecture = () => {
                 <ul>
                     <li>Read all the competition rules and details from above the sheets</li>
                     <li>No entry fee for your registration</li>
-                    <li>Submit your softcopy to this mail id (xxxxxxxxxxx)</li>
+                    <li>Submit your softcopy to this mail id (submissionsrathinam@gmail.com)</li>
                 </ul>
             </div>
         </Row>

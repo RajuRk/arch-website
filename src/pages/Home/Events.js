@@ -15,7 +15,7 @@ const datas = [
      id: 1,
      img: FD,
      title: "INTERNATIONAL YOUTH HUB",
-     link: "/event/facade-design",
+     link: "/event/youth-hub",
      dates: {
        relese: "Release of Brief",
        releseDate: "02nd Feb 2023,Monday",
@@ -51,7 +51,7 @@ const datas = [
       id: 3,
       img: Pavilion,
       title: "URBAN SPACE REDEVELOPMENT",
-      link: "/event/pavilion",
+      link: "/event/urban-space-redevelopment",
       dates: {
         relese: "Release of Brief",
         releseDate: "02nd Feb 2023,Monday",
@@ -87,7 +87,7 @@ const datas = [
       id: 5,
       img: Shelters,
       title: "ENTRANCE AREA",
-      link: "/event/bus-shelter",
+      link: "/event/rathinam-entrance",
       dates: {
         relese: "Release of Brief",
         releseDate: "02nd Feb 2023,Monday",
