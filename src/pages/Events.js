@@ -55,9 +55,7 @@ const Events = () => {
                             <Card.Img variant="top" src={data.img} />
                             <Card.Body>
                                 <Card.Title>{data.title}</Card.Title>
-                                <Card.Link>
-                                    <Link to={data.link}>Know More</Link>
-                                </Card.Link>
+                                <Card.Link as={Link} to={data.link}>Know More</Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>

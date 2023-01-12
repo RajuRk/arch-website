@@ -179,7 +179,7 @@ select{
 
 .about-img img{
     position: relative;
-    top: 30px;
+    top: 37px;
     left: 30px;
     border-radius: 6px;
 }
@@ -844,6 +844,14 @@ footer{
   .flex-title a button{
     background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
     color: #fff!important;
+  }
+
+  .card-link{
+    background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
+    color: #ffffff!important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
   }
 
   @media only screen and (max-width: 600px){

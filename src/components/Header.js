@@ -21,11 +21,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/awards">Award & Fees</Nav.Link>
                         <Nav.Link as={Link} to="/events">Events</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
-                    <Button className="topbar-btn">Register</Button>
+                    <Link to="/register"><Button className="topbar-btn">Register</Button></Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
