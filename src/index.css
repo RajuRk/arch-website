@@ -834,3 +834,24 @@ footer{
     background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
     color: #ffffff!important;
   }
+
+  .flex-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex-title a button{
+    background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
+    color: #fff!important;
+  }
+
+  @media only screen and (max-width: 600px){
+    .college-competition,
+    .priceFlex{
+      flex-direction: column;
+    }
+    .flex-title{
+      flex-direction: column;
+    }
+  }

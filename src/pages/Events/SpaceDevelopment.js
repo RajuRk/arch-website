@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row,Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import PavilionImg from '../../img/urban.jpg';
 import BluePrint from '../../img/blue-print.png';
 import MapView from '../../img/long-map-view.png';
@@ -9,8 +9,9 @@ const SpaceDevelopment = () => {
     <section id="event__section" className='page'>
       <Container>
         <Row className='mb-4'>
-            <div className='title'>
+            <div className='title flex-title'>
                 <h2>URBAN SPACE REDEVELOPMENT</h2>
+                <a href="../pdf/hurban.pdf" target="_blank"><Button>Brochure</Button></a>
             </div>
            <Col md={12} lg={12}>
                 <div className='intro__section'>
@@ -20,7 +21,7 @@ const SpaceDevelopment = () => {
                 </div>
            </Col>
            <Col md={12} lg={12}>
-             <div className="event__img">
+             <div className="event__img mb-3">
                <img src={PavilionImg} alt=""/>
              </div>
            </Col>

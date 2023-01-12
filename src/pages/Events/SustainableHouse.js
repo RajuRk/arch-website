@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row,Col } from 'react-bootstrap';
+import { Container,Row,Col,Button } from 'react-bootstrap';
 import FD from '../../img/sus.jpg';
 import SiteDiagram from '../../img/site-diagram.png';
 import viewLand from '../../img/view-land.png';
@@ -9,8 +9,9 @@ const SustainableHouse = () => {
     <section id="event__section" className='page'>
     <Container>
       <Row className='mb-4'>
-          <div className='title'>
+          <div className='title flex-title'>
               <h2>SUSTAINABLE HOUSE</h2>
+              <a href="../pdf/sustainabl-house.pdf" target="_blank"><Button>Brochure</Button></a>
           </div>
          <Col md={12} lg={12}>
               <div className='intro__section'>

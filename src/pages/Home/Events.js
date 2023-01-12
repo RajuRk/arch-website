@@ -139,7 +139,7 @@ const Events = () => {
                         <div className="card-sec">
                             <Row>
                                 <Col md={6} lg={6}>
-                                    <div className="comp-img">
+                                    <div className="comp-img mb-3">
                                         <Link to={data.link}><img src={data.img} alt=""/></Link>
                                     </div>
                                 </Col>

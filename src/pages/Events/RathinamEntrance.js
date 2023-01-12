@@ -26,7 +26,7 @@ const Entrance = () => {
                 </div>
            </Col>
            <Col md={6} lg={6}>
-             <div className="event__img">
+             <div className="event__img mb-3">
                <img src={BusImg} alt=""/>
              </div>
            </Col>

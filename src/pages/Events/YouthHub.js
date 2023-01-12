@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Row,Col } from 'react-bootstrap';
+import { Container,Row,Col,Button } from 'react-bootstrap';
 import FD from '../../img/youth.jpg';
 import Empower from '../../img/empower-youth.png';
 import Site from '../../img/site-map.png';
@@ -10,8 +10,9 @@ const Youthhub = () => {
     <section id="event__section" className='page'>
       <Container>
         <Row className='mb-4'>
-            <div className='title'>
+            <div className='title flex-title'>
                 <h2>INTERNATIONAL YOUTH HUB</h2>
+                <a href="../pdf/youthhub.pdf" target="_blank"><Button>Brochure</Button></a>
             </div>
            <Col md={6} lg={6}>
                 <div className='intro__section'>
@@ -21,7 +22,7 @@ const Youthhub = () => {
                 </div>
            </Col>
            <Col md={6} lg={6}>
-             <div className="event__img">
+             <div className="event__img mb-3">
                <img src={FD} alt=""/>
              </div>
            </Col>

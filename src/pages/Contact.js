@@ -54,7 +54,7 @@ const Contact = () => {
       <Container className='mt-4 mb-4'>
         <Row>
           <Col md={8} lg={8}>
-            <div className="contactForm">
+            <div className="contactForm p-3">
               <div className="">
                 <h4>CONTACT</h4>
               </div>  
@@ -132,7 +132,7 @@ const Contact = () => {
             </div>
           </Col>
           <Col md={4} lg={4}>
-            <div className='contactDetails'>
+            <div className='contactDetails p-3'>
                <div className='coordinatore mb-4'>
                   <h4>STAFF</h4>
                   <p><i className="fa fa-phone" aria-hidden="true"></i> 82482 90509</p>
