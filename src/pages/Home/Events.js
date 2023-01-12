@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import { Container,Row,Col } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import FD from '../../img/FD.jpg';
-import House from '../../img/house.jpg';
-import Pavilion from '../../img/Pavilion.jpg';
+import FD from '../../img/youth.jpg';
+import House from '../../img/sus.jpg';
+import Pavilion from '../../img/urban.jpg';
 import Photo from '../../img/photo.jpg';
 import Shelters from '../../img/Shelters.jpg';
 

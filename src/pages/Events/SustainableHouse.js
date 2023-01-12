@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap';
-import FD from '../../img/house-big.jpg';
+import FD from '../../img/sus.jpg';
 import SiteDiagram from '../../img/site-diagram.png';
 import viewLand from '../../img/view-land.png';
 

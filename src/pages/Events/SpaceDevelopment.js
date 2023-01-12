@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap';
-import PavilionImg from '../../img/pavilion-big.jpg';
+import PavilionImg from '../../img/urban.jpg';
 import BluePrint from '../../img/blue-print.png';
 import MapView from '../../img/long-map-view.png';
 

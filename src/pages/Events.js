@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import FDImg from '../img/fd-big.jpg';
-import HouseImg from '../img/house-big.jpg';
-import PavilinImg from '../img/pavilion-big.jpg';
+import FDImg from '../img/youth.jpg';
+import HouseImg from '../img/sus.jpg';
+import PavilinImg from '../img/urban.jpg';
 import PhotoImg from '../img/photo-big.jpg';
 import BusImg from '../img/shelters-big.jpg';
 

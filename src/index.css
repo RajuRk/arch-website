@@ -752,8 +752,9 @@ footer{
 
   .date_relese{
     background-color: #ffffff;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border-radius: 15px;
+    margin: 6px 6px;
   }
 
   .date_relese p{

@@ -8,10 +8,9 @@ const Header = () => {
     <div id="header">
         <div className="top-sec">
             <div className="social-icons">
-                <Link to=""><i className="fa-brands fa-facebook-f"></i></Link>
-                <Link to=""><i className="fab fa-twitter"></i></Link>
-                <Link to=""><i className="fa fa-instagram"></i></Link>
-                <Link to=""><i className="fa fa-linkedin"></i></Link>
+                <a href="https://www.facebook.com/rathinamcollege/about/" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/rathinamgroups" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rathinam_rsa/" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
             </div>
         </div>
         <Navbar bg="light" expand="lg">

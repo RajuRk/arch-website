@@ -17,7 +17,7 @@ const ReleseDate = () => {
                 <div className="date_relese">
                    <FaRegEdit/>
                    <h4>Early Bird Registrations​</h4>
-                   <p><strong>15th January to 1st February 2023</strong></p>
+                   <p><strong>15th January to 01st February 2023</strong></p>
                    <p><strong>FOR STUDENTS - </strong>(PER TEAM)</p>
                    <p><strong>INDIAN - </strong>INR 1500</p>
                    <p><strong>INTERNATIONAL - </strong>USD 18</p>

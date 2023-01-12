@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
-import FD from '../../img/fd-big.jpg';
+import FD from '../../img/youth.jpg';
 import Empower from '../../img/empower-youth.png';
 import Site from '../../img/site-map.png';
 import {FaRegEdit} from 'react-icons/fa';
