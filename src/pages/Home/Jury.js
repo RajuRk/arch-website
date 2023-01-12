@@ -50,8 +50,8 @@ const datas = [
     },
     {
         id: 6,
-        name: "AR. VENKATRAMAN",
-        desgnation: "CRAFT -(MADURAI)",
+        name: "AR. PRASANNA PANDIAN",
+        desgnation: "CRAFT",
         contact: "044-45542202",
         desc: "K. Prasanna Pandian also known as PP, is an artist, architect and animator from Tamil Nadu in south India. He was born in Madurai, Tamil Nadu in 1984, and is the founder-director of Archinfinitum, an architectural firm. He has won many awards and titles in the field of art and architecture and is good in interior design and landscape architecture. He was also introduced to the Tamil cinema industry as a music director. He finished his B.Arch at Measi Academy of Architecture, Chennai, while his schooling was at Madurai.",
         img: Jury6

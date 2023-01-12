@@ -59,7 +59,7 @@ const Register = () => {
         await axios.post('https://sheet.best/api/sheets/f901d167-56be-46e6-aa81-a4b20a8b71bb', data)
         .then((response) => {
           if(response.data){
-            toast("Successfully Submitted");
+            toast("Successfully Submitted!");
             setName('');
             setCompetitionName('');
             setCollegeName('');

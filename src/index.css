@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    font-size: 3.5em!important;
+    font-size: 4.5em!important;
     color: #e5e5e5;
     text-transform: uppercase;
 }
@@ -827,4 +827,9 @@ footer{
 
   .priceFlex .pirceList{
     text-align: center;
+  }
+
+  .topbar-btn{
+    background-image: linear-gradient(90deg, rgb(51 51 153 / 83%), rgb(255 0 204 / 81%));
+    color: #ffffff!important;
   }

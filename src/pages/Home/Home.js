@@ -13,8 +13,10 @@ const Home = () => {
     <>
         <section id="banner-section">
             <Container>
-                <div className="title-section">
-                    <h1>Sculpting The Architects Of The Future</h1>
+                <div className="title-section" style={{color: "#fff"}}>
+                    <h1>AVIVA</h1>
+                    <h5>PRESENTS</h5>
+                    <h2>YOUNG TALENT HUNT</h2>
                     <Link to="/register"><Button>Register Now</Button></Link>
                 </div>
             </Container>
