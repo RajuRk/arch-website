@@ -81,7 +81,7 @@ const Register = () => {
         <Row>
             <div className='title register-title' style={{textAlign: 'center'}}>
                 <h2>RATHINAM SCHOOL OF ARCHITECTURE AVIVA - YOUNG TALENTS PRESENTS</h2>
-                <h6> INTER COLLEGE DESIGN COMPETITION  (2022-2023)</h6>
+                <h6> INTRA COLLEGE DESIGN COMPETITION  (2022-2023)</h6>
             </div>
         <Form autoComplete="off" onSubmit={handleSubmit(getData)}>
             <Form.Group className="mb-4" controlId="formBasicName">
@@ -103,11 +103,10 @@ const Register = () => {
                   onChange={e => setCompetitionName(e.target.value)}  
                 >
                   <option value="" disabled="disabled">Choose Competition</option>
-                  <option value="Facade Design">Facade Design</option>
-                  <option value="Pavilion">Pavilion</option>
-                  <option value="Sustainable House">Sustainable House</option>
-                  <option value="Architectural photography">Architectural photography</option>
-                  <option value="Smart Bus Shelters">Smart Bus Shelters</option>
+                  <option value="ARCHITECTURAL PHOTOGRAPHY & SKETCHING">ARCHITECTURAL PHOTOGRAPHY & SKETCHING</option>
+                  <option value="Urban Space Development">Urban Space Development</option>
+                  <option value="SUSTAINABLE HOUSE">SUSTAINABLE HOUSE</option>
+                  <option value="ENTRANCE AREA">ENTRANCE AREA</option>
                 </Form.Select>
                 <p className='errorMessage'>{errors.competitionName?.message}</p>
             </Form.Group>
@@ -124,13 +123,18 @@ const Register = () => {
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicYear">
                 <Form.Label>Year - (Batch)</Form.Label>
-                <Form.Control 
-                  {...register("year")} 
-                  type="text" 
-                  placeholder="Enter Year" 
+                <Form.Select
+                  {...register("year")}
                   value={year}
                   onChange={e => setYear(e.target.value)}
-                />
+                >
+                  <option value="" disabled="disabled">Choose Year</option>
+                  <option value="1st Year">1st Year</option>
+                  <option value="2nd Year">2nd Year</option>
+                  <option value="3rd Year">3rd Year</option>
+                  <option value="4th Year">4th Year</option>
+                  <option value="Final Year">Final Year</option> 
+                </Form.Select>
                 <p className='errorMessage'>{errors.year?.message}</p>
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicAddress">

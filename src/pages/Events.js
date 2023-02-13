@@ -4,8 +4,9 @@ import {Link} from 'react-router-dom';
 import FDImg from '../img/youth.jpg';
 import HouseImg from '../img/sus.jpg';
 import PavilinImg from '../img/urban.jpg';
-import PhotoImg from '../img/photo-big.jpg';
-import BusImg from '../img/shelters-big.jpg';
+import PhotoImg from '../img/photography_sketching.jpg';
+import BusImg from '../img/entrance-area.jpg';
+import photo from '../img/photography-standard.jpg';
 
 const datas = [
     {
@@ -37,6 +38,12 @@ const datas = [
         title: "ENTRANCE AREA",
         img: BusImg,
         link: "/event/rathinam-entrance"
+    },
+    {
+        id: 6,
+        title: "PHOTOGRAPHY",
+        img: photo,
+        link: "/event/photography"
     },
 ]
 

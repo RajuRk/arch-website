@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaDownload } from "react-icons/fa";
 import PavilionImg from '../../img/urban.jpg';
 import BluePrint from '../../img/blue-print.png';
 import MapView from '../../img/long-map-view.png';
@@ -11,7 +12,7 @@ const SpaceDevelopment = () => {
         <Row className='mb-4'>
             <div className='title flex-title'>
                 <h2>URBAN SPACE REDEVELOPMENT</h2>
-                <a href="../pdf/hurban.pdf" target="_blank"><Button>Brochure</Button></a>
+                <a href="../pdf/urban.pdf" target="_blank"><Button><FaDownload/> Download Design Brief</Button></a>
             </div>
            <Col md={12} lg={12}>
                 <div className='intro__section'>
@@ -104,7 +105,7 @@ const SpaceDevelopment = () => {
             <div className="rules__section">
                <h4>RULES</h4>
                <ul>
-                 <li>The competition is open for students from all the disciplines of design.</li>
+                 <li>The competition is open for all the disciplines</li>
                  <li>The team limit for this competition is 2 members maximum per team.</li>
                  <li>This is design ideas challenge only. </li>
                  <li>There is no built commission/realization associated with the problem.</li>
@@ -133,18 +134,17 @@ const SpaceDevelopment = () => {
                 <h4>HOW TO SUBMIT</h4>
                 <ul>
                     <li>Read all the competition rules and details from above the sheets.</li>
-                    <li>No entry fee for your registration.</li>
-                    <li>Submit your softcopy to this mail id (xxxxxxxxxxx)</li>
+                    <li>Submit your softcopy to this mail id (submissionsrathinam@gmail.com)</li>
                 </ul>
             </div>
         </Row>
         <Row className='mb-4'>
             <div className="dates__section">
                <h4>IMPORTANT DATES</h4>
-               <p><strong>Release of Brief: </strong>02nd Feb 2023,Monday</p>
+               <p><strong>Release of Brief: </strong>20th Jan 2023, Friday</p>
                <p><strong>Registration Deadline: </strong>15th Feb 2023,Wednesday</p>
                <p><strong>Queries Deadline: </strong>22nd Feb 2023,Wednesday</p>
-               <p><strong>Submission Deadline: </strong>06th Mar 2023,Monday</p>
+               <p><strong>Submission Deadline: </strong>12th Mar 2023,Sunday</p>
                <p><strong>Winner Announcement: </strong>15th Mar 2023,Wednesday</p>
             </div>
         </Row>

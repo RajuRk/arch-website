@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container,Row,Col,Button } from 'react-bootstrap';
+import { FaDownload } from "react-icons/fa";
 import FD from '../../img/youth.jpg';
 import Empower from '../../img/empower-youth.png';
 import Site from '../../img/site-map.png';
@@ -12,7 +13,7 @@ const Youthhub = () => {
         <Row className='mb-4'>
             <div className='title flex-title'>
                 <h2>INTERNATIONAL YOUTH HUB</h2>
-                <a href="../pdf/youthhub.pdf" target="_blank"><Button>Brochure</Button></a>
+                <a href="../pdf/youthhub.pdf" target="_blank"><Button><FaDownload/> Download Design Brief</Button></a>
             </div>
            <Col md={6} lg={6}>
                 <div className='intro__section'>
@@ -119,17 +120,27 @@ const Youthhub = () => {
         <div className='title'>
             <h4>BRIEF RELEASE DATES</h4>
             <div className='specai-text'>
-            <h5>Release of Brief:18th Jan 2023, Wednesday​</h5>
+            <h5>Release of Brief:20th Jan 2023, Friday</h5>
             </div>
         </div>
         <Col md={4} lg={4}>
             <div className="date_relese">
                 <FaRegEdit/>
                 <h4>Early Bird Registrations​</h4>
-                <p><strong>15th January to 1st February 2023</strong></p>
+                <p><strong>20th January to 5th February 2023</strong></p>
                 <p><strong>FOR STUDENTS - </strong>(PER TEAM)</p>
                 <p><strong>INDIAN - </strong>INR 1500</p>
                 <p><strong>INTERNATIONAL - </strong>USD 18</p>
+            </div>
+        </Col>
+        <Col md={4} lg={4}>
+            <div className="date_relese">
+                <FaRegEdit/>
+                <h4>Standard Registrations​</h4>
+                <p><strong>5th February to 15th February 2023</strong></p>
+                <p><strong>FOR STUDENTS - </strong>(PER TEAM)</p>
+                <p><strong>INDIAN - </strong>INR 2000</p>
+                <p><strong>INTERNATIONAL - </strong>USD 24</p>
             </div>
         </Col>
         <Col md={4} lg={4}>
@@ -142,25 +153,15 @@ const Youthhub = () => {
                 <p><strong>INTERNATIONAL - </strong>USD </p>
             </div>
         </Col>
-        <Col md={4} lg={4}>
-            <div className="date_relese">
-                <FaRegEdit/>
-                <h4>Standard Registrations​</h4>
-                <p><strong>2nd February to 10th February 2023</strong></p>
-                <p><strong>FOR STUDENTS - </strong>(PER TEAM)</p>
-                <p><strong>INDIAN - </strong>INR 2000</p>
-                <p><strong>INTERNATIONAL - </strong>USD 24</p>
-            </div>
-        </Col>
         </Row>
          
         <Row className='mb-4'>
             <div className="dates__section">
                <h4>IMPORTANT DATES</h4>
-               <p><strong>Release of Brief: </strong>02nd Feb 2023,Monday</p>
+               <p><strong>Release of Brief: </strong>20th Jan 2023, Friday</p>
                <p><strong>Registration Deadline: </strong>15th Feb 2023,Wednesday</p>
                <p><strong>Queries Deadline: </strong>22nd Feb 2023,Wednesday</p>
-               <p><strong>Submission Deadline: </strong>06th Mar 2023,Monday</p>
+               <p><strong>Submission Deadline: </strong>12th Mar 2023,Sunday</p>
                <p><strong>Winner Announcement: </strong>15th Mar 2023,Wednesday</p>
             </div>
         </Row>

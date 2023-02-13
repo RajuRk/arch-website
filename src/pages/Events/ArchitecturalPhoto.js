@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container,Row,Col } from 'react-bootstrap';
-import ArchImg from '../../img/photo-big.jpg';
+import { Container,Row,Col,Button } from 'react-bootstrap';
+import { FaDownload } from "react-icons/fa";
+import ArchImg from '../../img/photography_sketching.jpg';
 
 const Architecture = () => {
 
@@ -8,8 +9,9 @@ const Architecture = () => {
     <section id="event__section" className='page'>
       <Container>
         <Row className='mb-4'>
-            <div className='title'>
-                <h2>ARCHITECTURAL PHOTOGRAPHY</h2>
+            <div className='title flex-title'>
+                <h2>ARCHITECTURAL PHOTOGRAPHY & SKETCHING</h2>
+                <a href="../pdf/photography_sketching_intra.pdf" target="_blank"><Button><FaDownload/> Download Design Brief</Button></a>
             </div>
            <Col md={6} lg={6}>
                 <div className='intro__section'>
@@ -53,7 +55,6 @@ const Architecture = () => {
                 <h4>GUIDELINES</h4>
                 <ul>
                     <li>You have to deliver an architectural outcome on the following topic, based on the given outlines</li>
-                    <li>Recommended number of images: 1 (One) of size portrait/landscape format (JPEG only) for Look for a unique angle</li>
                     <li>Recommended number of  images: 3 to 5 of size portrait/landscape format (JPEG only) for Shoot in a variety of weather conditions and times of day</li>
                     <li>Submitted as 300dpi. A short description of the photograph, site and photographer. (Do not submit PNG format)</li>
                     <li>sketching should be submitted in A3 Size portrait/landscape format</li>                
@@ -76,10 +77,10 @@ const Architecture = () => {
                 <h4>JUDGING CRITERIA & JUDGES</h4>
                 <p>The entries will be judged by an jury of the competition on the  following criteria: </p>
                 <ul>
-                    <li>Presentation: The fundamental to a good entry is a visual delivery of ideas</li>
-                    <li>Concept/Idea: Quality of thought and intent in the pre-design phase</li>
-                    <li>Spaces/Programme: How the spaces are calculated and ordered </li>
-                    <li>Design Outcome: The final architectural outcome of the solution</li>
+                    <li>Presentation</li>
+                    <li>Concept/Idea</li>
+                    <li>Spaces/Programme</li>
+                    <li>Design Outcome</li>
                 </ul>
                 <p>The judging panel can also add other criteria based on their internal discussions - which will be in line with the problem statement. Participants are advised to fulfil above given criteria first in their design. Names of the jury panel will be announced soon.</p>
             </div>
@@ -89,7 +90,6 @@ const Architecture = () => {
                 <h4>HOW TO SUBMIT</h4>
                 <ul>
                     <li>Read all the competition rules and details from above the sheets</li>
-                    <li>No entry fee for your registration</li>
                     <li>Submit your softcopy to this mail id (submissionsrathinam@gmail.com)</li>
                 </ul>
             </div>
@@ -97,10 +97,10 @@ const Architecture = () => {
         <Row className='mb-4'>
             <div className="dates__section">
                <h4>IMPORTANT DATES</h4>
-               <p><strong>Release of Brief: </strong>02nd Feb 2023,Monday</p>
+               <p><strong>Release of Brief: </strong>20th Jan 2023,Friday</p>
                <p><strong>Registration Deadline: </strong>15th Feb 2023,Wednesday</p>
                <p><strong>Queries Deadline: </strong>22nd Feb 2023,Wednesday</p>
-               <p><strong>Submission Deadline: </strong>06th Mar 2023,Monday</p>
+               <p><strong>Submission Deadline: </strong>12th Mar 2023,Sunday</p>
                <p><strong>Winner Announcement: </strong>15th Mar 2023,Wednesday</p>
             </div>
         </Row>

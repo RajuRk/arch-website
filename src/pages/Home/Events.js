@@ -7,8 +7,9 @@ import {Link} from 'react-router-dom';
 import FD from '../../img/youth.jpg';
 import House from '../../img/sus.jpg';
 import Pavilion from '../../img/urban.jpg';
-import Photo from '../../img/photo.jpg';
-import Shelters from '../../img/Shelters.jpg';
+import Photo from '../../img/photography_sketching.jpg';
+import Shelters from '../../img/entrance-area.jpg';
+import PhotoStandard from '../../img/photography-standard.jpg';
 
 const datas = [
    {
@@ -18,13 +19,13 @@ const datas = [
      link: "/event/youth-hub",
      dates: {
        relese: "Release of Brief",
-       releseDate: "02nd Feb 2023,Monday",
+       releseDate: "20th Jan 2023,Friday",
        registration: "Registration Deadline",
        registrationDate: "15th Feb 2023,Wednesday",
        queries: "Queries Deadline",
        queriesDate: "22nd Feb 2023,Wednesday",
        subission: "Submission Deadline",
-       subissionDate: "06th Mar 2023,Monday",
+       subissionDate: "12th Mar 2023,Sunday",
        winner: "Winner Announcement",
        winnerDate: "15th Mar 2023,Wednesday",
      },
@@ -36,13 +37,13 @@ const datas = [
     link: "/event/sustainable-housing",
     dates: {
       relese: "Release of Brief",
-      releseDate: "02nd Feb 2023,Monday",
+      releseDate: "20th Jan 2023,Friday",
       registration: "Registration Deadline",
       registrationDate: "15th Feb 2023,Wednesday",
       queries: "Queries Deadline",
       queriesDate: "22nd Feb 2023,Wednesday",
       subission: "Submission Deadline",
-      subissionDate: "06th Mar 2023,Monday",
+      subissionDate: "12th Mar 2023,Sunday",
       winner: "Winner Announcement",
       winnerDate: "15th Mar 2023,Wednesday",
       },
@@ -54,13 +55,13 @@ const datas = [
       link: "/event/urban-space-redevelopment",
       dates: {
         relese: "Release of Brief",
-        releseDate: "02nd Feb 2023,Monday",
+        releseDate: "20th Jan 2023,Friday",
         registration: "Registration Deadline",
         registrationDate: "15th Feb 2023,Wednesday",
         queries: "Queries Deadline",
         queriesDate: "22nd Feb 2023,Wednesday",
         subission: "Submission Deadline",
-        subissionDate: "06th Mar 2023,Monday",
+        subissionDate: "12th Mar 2023,Sunday",
         winner: "Winner Announcement",
         winnerDate: "15th Mar 2023,Wednesday",
       },
@@ -72,13 +73,13 @@ const datas = [
       link: "/event/architecture-photography",
       dates: {
         relese: "Release of Brief",
-        releseDate: "02nd Feb 2023,Monday",
+        releseDate: "20th Jan 2023,Friday",
         registration: "Registration Deadline",
         registrationDate: "15th Feb 2023,Wednesday",
         queries: "Queries Deadline",
         queriesDate: "22nd Feb 2023,Wednesday",
         subission: "Submission Deadline",
-        subissionDate: "06th Mar 2023,Monday",
+        subissionDate: "12th Mar 2023,Sunday",
         winner: "Winner Announcement",
         winnerDate: "15th Mar 2023,Wednesday",
        },
@@ -90,13 +91,31 @@ const datas = [
       link: "/event/rathinam-entrance",
       dates: {
         relese: "Release of Brief",
-        releseDate: "02nd Feb 2023,Monday",
+        releseDate: "20th Jan 2023,Friday",
         registration: "Registration Deadline",
         registrationDate: "15th Feb 2023,Wednesday",
         queries: "Queries Deadline",
         queriesDate: "22nd Feb 2023,Wednesday",
         subission: "Submission Deadline",
-        subissionDate: "06th Mar 2023,Monday",
+        subissionDate: "12th Mar 2023,Sunday",
+        winner: "Winner Announcement",
+        winnerDate: "15th Mar 2023,Wednesday",
+      },
+    },
+    {
+      id: 6,
+      img: PhotoStandard,
+      title: "PHOTOGRAPHY",
+      link: "/event/photography",
+      dates: {
+        relese: "Release of Brief",
+        releseDate: "20th Jan 2023,Friday",
+        registration: "Registration Deadline",
+        registrationDate: "15th Feb 2023,Wednesday",
+        queries: "Queries Deadline",
+        queriesDate: "22nd Feb 2023,Wednesday",
+        subission: "Submission Deadline",
+        subissionDate: "12th Mar 2023,Sunday",
         winner: "Winner Announcement",
         winnerDate: "15th Mar 2023,Wednesday",
       },

@@ -17,7 +17,8 @@ const Home = () => {
                     <h1>AVIVA</h1>
                     <h5>PRESENTS</h5>
                     <h2>YOUNG TALENT HUNT</h2>
-                    <Link to="/register"><Button>Register Now</Button></Link>
+                    <span class="blink_text">Early Bid Registration Extended Till 18th February</span>
+                    <Link to="/register-event"><Button>Register Now</Button></Link>
                 </div>
             </Container>
         </section>

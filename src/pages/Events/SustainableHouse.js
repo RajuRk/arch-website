@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Row,Col,Button } from 'react-bootstrap';
+import { FaDownload } from "react-icons/fa";
 import FD from '../../img/sus.jpg';
 import SiteDiagram from '../../img/site-diagram.png';
 import viewLand from '../../img/view-land.png';
@@ -11,7 +12,7 @@ const SustainableHouse = () => {
       <Row className='mb-4'>
           <div className='title flex-title'>
               <h2>SUSTAINABLE HOUSE</h2>
-              <a href="../pdf/sustainabl-house.pdf" target="_blank"><Button>Brochure</Button></a>
+              <a href="../pdf/intra-sustainable.pdf" target="_blank"><Button><FaDownload/> Download Design Brief</Button></a>
           </div>
          <Col md={12} lg={12}>
               <div className='intro__section'>
@@ -65,7 +66,7 @@ const SustainableHouse = () => {
             </div>
             <div className='pirceList'>
               <h5>Runner Up: 5,000 INR</h5>
-              <p>2 nos</p>  
+              <p>1 nos</p>  
             </div>
             <div className='pirceList'>
               <h5>Special Mention: E-Certificate</h5>
@@ -73,7 +74,7 @@ const SustainableHouse = () => {
             </div> 
           </div>
           <h4>PRIZE MONEY</h4>
-          <p>Prize money of  20000  INR is allotted by RSA and it will be divided according to the number of the Citations and Special Mentions.</p>
+          <p>Prize money of  15000  INR is allotted by RSA and it will be divided according to the number of the Citations and Special Mentions.</p>
       </Row>
     </Container>
   </section>

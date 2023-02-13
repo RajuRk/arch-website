@@ -24,9 +24,9 @@ const Header = () => {
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/awards">Award & Fees</Nav.Link>
                         <Nav.Link as={Link} to="/events">Events</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Enquiry</Nav.Link>
                     </Nav>
-                    <Link to="/register"><Button className="topbar-btn">Register</Button></Link>
+                    <Link to="/register-event"><Button className="topbar-btn">Register</Button></Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

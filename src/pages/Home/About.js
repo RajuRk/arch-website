@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../../img/main.jpg';
+import AboutImg from '../../img/main-poster.jpg';
 import { Container,Row,Col } from 'react-bootstrap'
 
 const About = () => {

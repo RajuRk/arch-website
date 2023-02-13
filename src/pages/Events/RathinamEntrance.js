@@ -1,6 +1,7 @@
 import React from 'react'
-import { Container,Row,Col } from 'react-bootstrap';
-import BusImg from '../../img/shelters-big.jpg';
+import { Container,Row,Col,Button } from 'react-bootstrap';
+import { FaDownload } from "react-icons/fa";
+import BusImg from '../../img/entrance-area.jpg';
 import PrintMap from '../../img/print-map.png';
 import SitePhoto from '../../img/site-photo.png';
 import Objective from '../../img/objective.png';
@@ -10,8 +11,9 @@ const Entrance = () => {
     <section id="event__section" className='page'>
       <Container>
         <Row className='mb-4'>
-            <div className='title'>
+            <div className='title flex-title'>
                 <h2>RATHINAM ENTRANCE</h2>
+                <a href="../pdf/entrance-design.pdf" target="_blank"><Button><FaDownload/> Download Design Brief</Button></a>
             </div>
            <Col md={6} lg={6}>
                 <div className='intro__section'>
@@ -112,7 +114,7 @@ const Entrance = () => {
             <div className="rules__section">
                <h4>RULES</h4>
                <ul>
-                 <li>The competition is open for students from all the disciplines of design</li>
+                 <li>The competition is open for all the disciplines</li>
                  <li>The team limit for this competition is 2 members maximum per team</li>
                  <li>This is design ideas challenge only</li>
                  <li>There is no built commission/realization associated with the problem</li>
@@ -125,10 +127,10 @@ const Entrance = () => {
                 <h4>JUDGING CRITERIA & JUDGES</h4>
                 <p>The entries will be judged by an  jury of the competition on the  following criteria:</p>
                 <ul>
-                    <li>Presentation: The fundamental to a good entry is a visual delivery of ideas</li>
-                    <li>Concept/Idea: Quality of thought and intent in the pre-design phase</li>
-                    <li>Spaces/Programme: How the spaces are calculated and ordered </li>
-                    <li>Design Outcome: The final architectural outcome of the solution</li>
+                    <li>Presentation</li>
+                    <li>Concept/Idea</li>
+                    <li>Spaces/Programme</li>
+                    <li>Design Outcome</li>
                 </ul>
                 <p>The judging panel can also add other criteria based on their internal discussions - which will be in line with the problem statement. Participants are advised to fulfil above given criteria first in their design. Names of the jury panel will be announced soon.</p>
             </div>
@@ -138,7 +140,6 @@ const Entrance = () => {
                 <h4>HOW TO SUBMIT</h4>
                 <ul>
                     <li>Read all the competition rules and details from above the sheets</li>
-                    <li>No entry fee for your registration</li>
                     <li>Submit your softcopy to this mail id (submissionsrathinam@gmail.com)</li>
                 </ul>
             </div>
@@ -146,10 +147,10 @@ const Entrance = () => {
         <Row className='mb-4'>
             <div className="dates__section">
                <h4>IMPORTANT DATES</h4>
-               <p><strong>Release of Brief: </strong>18th Jan 2023, Wednesday</p>
+               <p><strong>Release of Brief: </strong>20th Jan 2023, Friday</p>
                <p><strong>Registration Deadline: </strong>15th Feb 2023,Wednesday</p>
                <p><strong>Queries Deadline: </strong>22nd Feb 2023,Wednesday</p>
-               <p><strong>Submission Deadline: </strong>06th Mar 2023,Monday</p>
+               <p><strong>Submission Deadline: </strong>12th Mar 2023,Sunday</p>
                <p><strong>Winner Announcement: </strong>15th Mar 2023,Wednesday</p>
             </div>
         </Row>

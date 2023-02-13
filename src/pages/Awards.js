@@ -26,6 +26,11 @@ const Awards = () => {
                  <h5>PHOTOGRAPHY</h5>
                  <p>( 10,000/-)</p>
               </div>
+              <div className='youtube-hub'>
+                 <img src={Sustainable} alt=""/>
+                 <h5>Sustainable Residence</h5>
+                 <p>( 10,000/-)</p>
+              </div>
             </div>
         </Row>
         <Row>
@@ -42,7 +47,7 @@ const Awards = () => {
             <Col md={3} lg={3}>
                 <div className='commpetitions'>
                   <img src={Sustainable} alt=""/>
-                  <h5>Sustainable Resident</h5>
+                  <h5>Sustainable Residence</h5>
                   <p>( 10,000 + 5,000/- )</p>
                 </div>
             </Col>
@@ -56,7 +61,7 @@ const Awards = () => {
             <Col md={3} lg={3}>
                 <div className='commpetitions'>
                   <img src={PhotographySketch} alt=""/>
-                  <h5>Photography & Sketch</h5>
+                  <h5>Photography & Sketching</h5>
                   <p>( 10,000+5,000/-)</p>
                 </div>
             </Col>
